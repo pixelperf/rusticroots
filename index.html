@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <!--Author: Claire Irick -->
+<!-- Created: Feb 2023 -->
 <html lang="en">
 <head>
+  <!--link to Farm To Table font 
+  <link rel="stylesheet" href="https://use.typekit.net/######.css"> -->
+  <!--link to Albino Lovebird font 
+  <link rel="stylesheet" href="https://use.typekit.net/######.css"> -->
     <meta charset="UTF-8">
     <title>Rustic Roots</title>
-    <link rel="stylesheet" href="css/rusticroots.css"/>
+    <link rel="stylesheet" href="rusticroots.css"/>
 </head>
 <body>
   <header>
-    <nav>
-      <!--hamburger menu on left, three buttons on right-->
+    <nav> <!--hamburger menu on left, three buttons on right-->
       <!-- hamburger menu -->
         <p>&#9776;</p>
+        <!-- Menu Buttons -->
+        <ul>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Cart</a></li>
+        </ul>  
     </nav>
-    <!-- banner -->
-      <img src="images/banner-img.JPG" width=100 height=10 alt=banner id=banner-img>
-      <!--white box
-      rustic Roots
-      blue line across bottom-->
-      <h1>Rustic Roots</h1>
-    </header>    
-  <main> <!--page is split into 2 sections : shop and events -->
+    <!-- banner ** ADD NAME LOGO IMG ** -->
+      <img src="images/banner-img.JPG" width=100% height=100px alt=banner id=banner-img>
+    <!-- NEED TO ADD blue line across bottom-->
+  </header>    
+  <main id="wrapper"> <!--page is split into 2 sections : shop and events -->
     <section> <!-- Shop -->
-      <h2>Shop</h2>
+      <h1 class="headers">Shop</h1>
       <div>
-        <!-- horizontal scrolling -->
+        <!-- products horizontally scrol -->
         <!-- product 1 -->
-          <img src="images/box.jpg" width=15 height=25 alt=product id=product1>
-          <!--product title -->
-          <h3>2lb soap loaf mold</h3>
-          <!--box behind title -->
-          <!--heart vector -->
+          <img src="images/box.jpg" width=30% height=40% alt=product id=product1>
+          <!--heart button -->
+          <button>fav</button>
           <!--add to cart button-->
           <button>add to cart</button>
-          <!--price -->
-          <p>$15</p>
         <!-- product 2 -->
           <img src="images/box.jpg" width=15 height=25 alt=product id=product2>
-          <!--poduct title -->
-          <h3>2lb soap loaf mold</h3>
-          <!--box behind title -->
-          <!--heart vector -->
+          <!--heart button -->
+          <button>fav</button>
           <!--add to cart button-->
           <button>add to cart</button>
-          <!--price -->
-          <p>$25</p>
+        <!-- product 3 -->
+          <img src="images/box.jpg" width=15 height=25 alt=product id=product3>
+          <!--heart button -->
+          <button>fav</button>
+          <!--add to cart button-->
+          <button>add to cart</button>
+        <!-- product 4 -->
+          <img src="images/box.jpg" width=15 height=25 alt=product id=product4>
+          <!--heart button -->
+          <button>fav</button>
+          <!--add to cart button-->
+          <button>add to cart</button>
       </div>
     </section>
     <section> <!-- Events -->
-      <h2>Events</h2>
+      <h2 class="headers">Events</h2>
       <div>
         <!-- horizontal scrolling-->
         <!-- Event 1 -->

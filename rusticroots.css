@@ -1,0 +1,65 @@
+/*  Author: Claire Irick 
+    Created: Feb 2023 */
+
+/* *** TOP NAV BAR *** */
+nav{
+    background: #C1B0A9;
+    margin:0%;
+    padding-bottom: 0%;
+    /* position:fixed; */
+}
+/* hamburger menu */   
+nav,p{
+    justify-self:center;
+    /* position:fixed; */
+} 
+nav,ul,li{
+    color: white;
+    /* position:fixed; */
+}
+
+/* *** PAGE CONTENT *** */
+body{
+    background-color: white;
+}
+.headers{
+    font-family: Farm To Market, slab-serif;
+    color: #000000;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+section div{
+    background-color: pink;
+}
+section div img{
+
+}
+
+/* *** wrapper *** */
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+/* *** FOOTER *** */
+footer{
+    background-color:#C1B0A9;
+}
+/* Rustic Roots */
+h5{
+    font-family: Farm To Market, slab-serif;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 20px;
+}
+/* Thank you note */
+h6{
+    font-family: Albino Lovebird Font, script;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+}
+/* Social Media links */
+
